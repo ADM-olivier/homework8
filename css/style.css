@@ -1,0 +1,213 @@
+.container {
+    position: absolute;
+    max-width: 1358px;
+    width: 100%; 
+    max-height: 1499px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position: absolute;
+    max-width: 1358px;
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+menu {
+    position: fixed;
+    max-width: 1360px;
+    width: 100%;
+    height: 100%;
+    max-height: 81px;
+    filter: drop-shadow(0px 0px 10px rgba(101,101,101,0.2 ));
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+}
+/* here we gonna style menu input */
+h1 {
+    top: 25px;
+    left: 95px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    width: 133px;
+    height: 31px;
+    background-color: white;
+    background: linear-gradient(-1deg, 
+    #08aeea 0.00%, 
+    #2af598 100.00%);
+}
+menu ul {
+    display: flex;
+}
+menu ul li a {
+    margin-right: 44px;
+    width: 120px;
+    height: 18px;
+    font-family: "Raleway";
+    font-size: 15.742380142211914px;
+    font-weight: normal;
+    line-height: 36.99894714355469px;
+    font-style: normal;
+    text-align: center;
+    color: #303134;
+}
+.tour {
+    margin-right: 91px;
+}
+/* here we end menu styling */
+/* here we styling bg image and input */
+.containerdiv {
+    position: absolute;
+    top: 81px;
+    max-width: 1360px;
+    width: 100%;
+    max-height: 569px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.divitem {
+    position: absolute;
+    max-width: 588px;
+    width: 100%;
+    max-height: 146.3px;
+    height: 100%;
+    left: 416px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    position: absolute;
+    max-width: 600px;
+    width: 100%;
+    max-height: 89px;
+    width: 100%;
+    font-family: "Arial";
+    font-size: 78.74051666259766px;
+    font-weight: normal;
+    line-height: 52.95845413208008px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    top: 15px;
+}
+span {
+    position: absolute;
+    width: 322px;
+    height: 21px;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 37px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    top: 120px;
+    left: 105px;
+}
+/* here we end styling bg image and input */
+/* here we start styling main */
+main {
+    position: absolute;
+    max-width: 1172px;
+    width: 100%;
+    max-height: 679.1px;
+    height: 100%;
+    left: 95px;
+    top: 727px;
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.div {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    position: relative;
+    left: 299px;
+    bottom: 23px;
+    width: 100%;
+    max-width:269.1px;
+    max-height: 327.4px;
+    height: 100%;
+    margin-top: 22px;
+    margin-right: 32px;
+}
+.div img {
+    position: absolute;
+    width: 269px;
+    height: 197px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+.div h3 {
+    position: relative;
+    left: 0px;
+    top: 204px;
+    font-size: 17.998149871826172px;
+}
+.div p {
+    margin-top: 8px;
+    top: 233px;
+}
+.title {
+    position: absolute;
+    max-width: 241.5px;
+    width: 100%;
+    height: 100%;
+    height: 239.6px;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    position: absolute;
+    width: 199px;
+    height: 31px;
+    font-family: "Raleway";
+    font-size: 25.9973201751709px;
+    font-weight: normal;
+    line-height: 36.99618911743164px;
+    font-style: normal;
+    text-align: left;
+    top: 24px;
+    margin-top: 6px;
+}
+p {
+    position: absolute;
+    width: 241px;
+    height: 145.2px;
+    font-family: "Raleway";
+    font-size: 15.998350143432617px;
+    font-weight: 500;
+    line-height: 21.997732162475586px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+    top: 94px;
+    margin-top: 39px;
+}
+
+
+
+
+
+
+
+
